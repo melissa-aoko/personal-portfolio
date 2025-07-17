@@ -1,44 +1,26 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import tetrisGameBanner from "../assets/img/teris-game-card.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-  const aiProjects = [
-    {
-      title: "AI Sentiment Analyzer",
-      description: "Built with Python & TensorFlow",
-      imgUrl: projImg1,
-      githubLink: "https://github.com/yourusername/ai-project",
-      demoLink: "https://your-ai-demo-link.com"
-    },
-  ];
+
+  const aiProjects = [];
 
   const softwareProjects = [
     {
-      title: "Task Manager App",
-      description: "React & Firebase",
-      imgUrl: projImg2,
-      githubLink: "https://github.com/yourusername/software-project",
+      title: "Tetris Game",
+      description: "Python & Pygame",
+      imgUrl: tetrisGameBanner,
+      githubLink: "https://github.com/melissa-aoko/Tetris-game",
       demoLink: "https://your-software-demo-link.com"
     },
   ];
 
-  const cyberProjects = [
-    {
-      title: "Port Scanner Tool",
-      description: "Python + Nmap",
-      imgUrl: projImg3,
-      githubLink: "https://github.com/yourusername/cyber-project",
-      demoLink: "https://your-cyber-demo-link.com"
-    },
+  const cyberProjects = [];
   
-  ];
-
   return (
     <section className="project" id="projects">
       <Container>
