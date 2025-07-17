@@ -15,7 +15,7 @@ export const Projects = () => {
       description: "Python & Pygame",
       imgUrl: tetrisGameBanner,
       githubLink: "https://github.com/melissa-aoko/Tetris-game",
-      demoLink: "https://your-software-demo-link.com"
+      demoLink: "https://www.youtube.com/watch?v=0YMjwqnMpiM"
     },
   ];
 
